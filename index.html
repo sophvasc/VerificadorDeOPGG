@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de opgg</title>
+</head>
+<body>
+    <h1>Verifique o link para o seu OPGG</h1>
+    <div id="dados">
+            <p>Digite sua regiao: <select name="box" id="box"> 
+                <option>BR</option>
+                <option>KR</option>
+                <option>JP</option>
+                <option>NA</option>
+                <option>EUW</option>
+                <option>EUNE</option>
+                <option>KR</option>
+                <option>OCE</option>
+                <option>LAS</option>
+                <option>LAN</option>
+                <option>RU</option>
+                <option>TR</option>
+            </select></p>
+            <p>
+
+            Digite seu nick: <input type="text" name="txt" id="txt"> <input type="button" value="Verificar" onclick="Verificar()"></p>
+    </div>
+    <hr>
+    <div id="res"> 
+       Link para o seu OPGG: 
+    </div>
+    <hr>
+    <img src="yasuo.png" alt="yasuo png">
+    <p>&reg; Vert0C0de</p>
+    <script src="script.js"></script>
+    
+</body>
+</html>
